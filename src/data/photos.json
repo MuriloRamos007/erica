@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "src": "photos/memory-1-1440.webp",
+    "srcSet": "photos/memory-1-480.webp 480w, photos/memory-1-960.webp 960w, photos/memory-1-1440.webp 1440w",
+    "width": 900,
+    "height": 1600,
+    "alt": "Fotografia da coleção de memórias, 1"
+  },
+  {
+    "id": 1,
+    "src": "photos/memory-2-1440.webp",
+    "srcSet": "photos/memory-2-480.webp 480w, photos/memory-2-960.webp 960w, photos/memory-2-1440.webp 1440w",
+    "width": 899,
+    "height": 1599,
+    "alt": "Fotografia da coleção de memórias, 2"
+  },
+  {
+    "id": 2,
+    "src": "photos/memory-3-1440.webp",
+    "srcSet": "photos/memory-3-480.webp 480w, photos/memory-3-960.webp 960w, photos/memory-3-1440.webp 1440w",
+    "width": 1440,
+    "height": 664,
+    "alt": "Fotografia da coleção de memórias, 3"
+  },
+  {
+    "id": 3,
+    "src": "photos/memory-4-1440.webp",
+    "srcSet": "photos/memory-4-480.webp 480w, photos/memory-4-960.webp 960w, photos/memory-4-1440.webp 1440w",
+    "width": 899,
+    "height": 1599,
+    "alt": "Fotografia da coleção de memórias, 4"
+  },
+  {
+    "id": 4,
+    "src": "photos/memory-5-1440.webp",
+    "srcSet": "photos/memory-5-480.webp 480w, photos/memory-5-960.webp 960w, photos/memory-5-1440.webp 1440w",
+    "width": 897,
+    "height": 1600,
+    "alt": "Fotografia da coleção de memórias, 5"
+  },
+  {
+    "id": 5,
+    "src": "photos/memory-6-1440.webp",
+    "srcSet": "photos/memory-6-480.webp 480w, photos/memory-6-960.webp 960w, photos/memory-6-1440.webp 1440w",
+    "width": 1440,
+    "height": 810,
+    "alt": "Fotografia da coleção de memórias, 6"
+  },
+  {
+    "id": 6,
+    "src": "photos/memory-7-1440.webp",
+    "srcSet": "photos/memory-7-480.webp 480w, photos/memory-7-960.webp 960w, photos/memory-7-1440.webp 1440w",
+    "width": 899,
+    "height": 1599,
+    "alt": "Fotografia da coleção de memórias, 7"
+  },
+  {
+    "id": 7,
+    "src": "photos/memory-8-1440.webp",
+    "srcSet": "photos/memory-8-480.webp 480w, photos/memory-8-960.webp 960w, photos/memory-8-1440.webp 1440w",
+    "width": 899,
+    "height": 1599,
+    "alt": "Fotografia da coleção de memórias, 8"
+  },
+  {
+    "id": 8,
+    "src": "photos/memory-9-1440.webp",
+    "srcSet": "photos/memory-9-480.webp 480w, photos/memory-9-960.webp 960w, photos/memory-9-1440.webp 1440w",
+    "width": 1440,
+    "height": 664,
+    "alt": "Fotografia da coleção de memórias, 9"
+  },
+  {
+    "id": 9,
+    "src": "photos/memory-10-1440.webp",
+    "srcSet": "photos/memory-10-480.webp 480w, photos/memory-10-960.webp 960w, photos/memory-10-1440.webp 1440w",
+    "width": 1064,
+    "height": 1453,
+    "alt": "Fotografia da coleção de memórias, 10"
+  }
+]

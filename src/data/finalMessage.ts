@@ -1,0 +1,15 @@
+export const finalMessage = [
+  "Eu não sei exatamente em que momento você se tornou tão importante para mim. Só sei que, desde que você chegou, alguma coisa mudou aqui dentro. Você trouxe uma luz para lugares meus que eu já tinha aceitado que seriam escuros para sempre.",
+  "Tem algo em você que consegue fazer a minha alegria falar mais alto que toda a raiva que existe em mim. Você me traz uma paz que eu nem sabia que procurava, e um brilho que, sozinho, eu nunca consegui encontrar.",
+  "E talvez dizer que eu te amo ainda seja pouco.",
+  "Porque, se tudo aquilo que chamam de amor não for suficiente para explicar o que eu sinto por você, então eu quero inventar outra coisa. Quero reinventar o amor inteiro, começar do zero, criar um significado novo para essa palavra, só para existir algo grande o bastante para dizer o quanto eu quero você ao meu lado.",
+  "Eu reinventaria cada detalhe. A forma de cuidar, de sentir saudade, de demonstrar carinho, de estar presente. Inventaria novas maneiras de dizer “fica”, novas maneiras de dizer “eu escolho você”, até você entender que, entre todas as possibilidades que a vida poderia me oferecer, ainda seria você que eu procuraria.",
+  "Não quero te prometer um amor perfeito. Quero algo melhor: um amor nosso.",
+  "Um amor que a gente descubra devagar, que tenha nossas cores, nossos defeitos, nossas risadas, nossos momentos e até nossas tempestades. Um amor que não precise seguir nenhuma definição já criada.",
+  "Porque, se for para ter você comigo, eu não quero apenas aprender a amar.",
+  "Eu quero aprender você.",
+  "E se for preciso reinventar o próprio conceito de amor para conseguir explicar o que sinto quando estou ao seu lado, então que seja.",
+  "Eu inventaria o amor outra vez.",
+  "E dessa vez, ele teria o seu nome.",
+  "Feliz Aniversário Érica.",
+] as const;
