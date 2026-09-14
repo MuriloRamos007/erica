@@ -2,3 +2,9 @@ node_modules/
 dist/
 *.tsbuildinfo
 test-results/
+.env
+.env.local
+.env.*.local
+verification/
+playwright-report/
+*.log

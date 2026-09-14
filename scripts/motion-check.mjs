@@ -3,11 +3,15 @@ import assert from "node:assert/strict";
 const browser = await chromium.launch({ channel: "chrome", headless: true });
 const page = await browser.newPage({ viewport: { width: 1366, height: 768 } });
 const errors = [];
+page.on("response", (response) => {
+  if (response.status() >= 400)
+    errors.push(response.status() + " " + response.url());
+});
 page.on("pageerror", (e) => errors.push(e.message));
 page.on("console", (m) => {
   if (m.type() === "error") errors.push(m.text());
 });
-await page.goto("http://127.0.0.1:5178");
+await page.goto(process.env.TEST_URL || "http://127.0.0.1:5178/erica/");
 await page.screenshot({ path: "verification/cover-final.png" });
 await page.keyboard.press("Tab");
 await page.keyboard.press("Enter");

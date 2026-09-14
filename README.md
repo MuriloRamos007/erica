@@ -15,7 +15,37 @@ npm run dev
 npm run build
 ```
 
-Importe esta pasta na Vercel ou Netlify. Comando de build: `npm run build`. Diretório de saída: `dist`. Os arquivos de configuração já estão incluídos. Também é possível hospedar o conteúdo de `dist` em qualquer servidor estático.
+### GitHub Pages
+
+O workflow `.github/workflows/deploy.yml` instala as dependências com `npm ci`, compila o site e publica `dist` em cada push para `main`. Também permite execução manual na aba Actions.
+
+No repositório, selecione **Settings → Pages → Build and deployment → Source → GitHub Actions** antes da primeira execução. Após enviar o commit, acompanhe **Actions → Deploy GitHub Pages**.
+
+URL deste repositório: https://MuriloRamos007.github.io/erica/
+
+A base é inferida de `GITHUB_REPOSITORY` no workflow e de `git remote get-url origin` localmente. Para o remote atual, o resultado é `/erica/`. Repositórios de usuário (`usuario.github.io`) usam `/`; cópias sem Git usam caminhos relativos. As fotos permanecem em `public/photos`, fontes são empacotadas pelo Vite e a música utiliza `BASE_URL`. Nenhum roteador é necessário.
+
+Para revisar o build localmente:
+
+```sh
+npm ci
+npm run build
+npm run preview
+```
+
+Abra o endereço exibido pelo Vite, acrescentando `/erica/`. Para executar os testes existentes contra a produção, com Chrome instalado, use em outro terminal PowerShell:
+
+```powershell
+$env:TEST_URL = "http://127.0.0.1:4173/erica/"
+npm run verify
+node scripts/motion-check.mjs
+```
+
+As capturas e os relatórios em `verification/` são locais e ficam fora do Git. `public/` permanece versionado integralmente.
+
+### Outros servidores estáticos
+
+As configurações da Vercel e Netlify continuam disponíveis. Para hospedar na raiz, use o comando de build `npx tsc -b && npx vite build --base=/`, com diretório de saída `dist`.
 
 ## Música opcional
 
